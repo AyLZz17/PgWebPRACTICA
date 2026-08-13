@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPIKE//INTEL — Reportes tácticos de Valorant</title>
+<meta name="description" content="Informes no oficiales sobre parches, agentes, mapas y esports de Valorant.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>SPIKE PLANTADO // NUEVO INFORME DISPONIBLE</span>
+    <span>PARCHE 9.08 EN VIVO EN TODAS LAS REGIONES</span>
+    <span>AGENTE «UMBRAL» ENTRA EN ROTACIÓN LA PRÓXIMA SEMANA</span>
+    <span>CHAMPIONS 2026 · FASE DE GRUPOS EN CURSO</span>
+    <span>ESTADO DE SERVIDORES: OPERATIVO</span>
+    <span>SPIKE PLANTADO // NUEVO INFORME DISPONIBLE</span>
+    <span>PARCHE 9.08 EN VIVO EN TODAS LAS REGIONES</span>
+    <span>AGENTE «UMBRAL» ENTRA EN ROTACIÓN LA PRÓXIMA SEMANA</span>
+    <span>CHAMPIONS 2026 · FASE DE GRUPOS EN CURSO</span>
+    <span>ESTADO DE SERVIDORES: OPERATIVO</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a href="#top" class="logo">
+      <span class="logo__mark">&gt;</span>SPIKE<span class="logo__slash">//</span>INTEL
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#hero" class="nav__link">Inicio</a>
+      <a href="#feed" class="nav__link">Informes</a>
+      <a href="#briefing" class="nav__link">Ops</a>
+      <a href="#about" class="nav__link">Protocolo</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__silhouette"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="wrap hero__inner">
+      <p class="eyebrow"><span class="eyebrow__dot"></span>INFORME DESTACADO · AGENTES</p>
+      <h1 class="hero__title">UMBRAL ROMPE<br>LA LÍNEA DE VISIÓN</h1>
+      <p class="hero__excerpt">
+        El decimonoveno agente del roster llega con un kit centrado en negar información: humo que se
+        propaga por el suelo, un señuelo que imita pasos y una ejecución final que apaga todo sonido
+        alrededor. Repasamos su kit completo y qué significa para la meta de retakes.
+      </p>
+      <div class="hero__actions">
+        <button class="btn btn--primary" data-open-article="umbral">Leer informe completo</button>
+        <a href="#feed" class="btn btn--ghost">Ver todos los informes</a>
+      </div>
+      <dl class="hero__meta">
+        <div><dt>Categoría</dt><dd>Agentes</dd></div>
+        <div><dt>Publicado</dt><dd>12 AGO 2026</dd></div>
+        <div><dt>Lectura</dt><dd>4 MIN</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- BRIEFING STRIP -->
+  <section class="briefing" id="briefing">
+    <div class="wrap briefing__inner">
+      <article class="panel panel--countdown">
+        <h2 class="panel__title">Próximo despliegue</h2>
+        <p class="panel__sub">Cuenta regresiva estimada para el Parche 9.09</p>
+        <div class="countdown" id="countdown" role="timer" aria-live="off">
+          <div class="countdown__unit"><span id="cd-days">--</span><label>Días</label></div>
+          <div class="countdown__unit"><span id="cd-hours">--</span><label>Hrs</label></div>
+          <div class="countdown__unit"><span id="cd-mins">--</span><label>Min</label></div>
+          <div class="countdown__unit"><span id="cd-secs">--</span><label>Seg</label></div>
+        </div>
+      </article>
+
+      <article class="panel panel--status">
+        <h2 class="panel__title">Estado de servidores</h2>
+        <ul class="status-list">
+          <li><span class="dot dot--ok"></span>LATAM Norte <b>Operativo</b></li>
+          <li><span class="dot dot--ok"></span>LATAM Sur <b>Operativo</b></li>
+          <li><span class="dot dot--ok"></span>NA East <b>Operativo</b></li>
+          <li><span class="dot dot--warn"></span>EU West <b>Mantenimiento</b></li>
+        </ul>
+      </article>
+
+      <article class="panel panel--rank">
+        <h2 class="panel__title">Racha de la comunidad</h2>
+        <p class="panel__sub">Agente más reportado esta semana en informes de balance</p>
+        <div class="rankbar">
+          <span class="rankbar__label">Iso</span>
+          <div class="rankbar__track"><div class="rankbar__fill" style="--v:82%"></div></div>
+          <span class="rankbar__val">82%</span>
+        </div>
+        <div class="rankbar">
+          <span class="rankbar__label">Fade</span>
+          <div class="rankbar__track"><div class="rankbar__fill" style="--v:61%"></div></div>
+          <span class="rankbar__val">61%</span>
+        </div>
+        <div class="rankbar">
+          <span class="rankbar__label">Killjoy</span>
+          <div class="rankbar__track"><div class="rankbar__fill" style="--v:47%"></div></div>
+          <span class="rankbar__val">47%</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FEED -->
+  <section class="feed" id="feed">
+    <div class="wrap">
+      <div class="feed__head">
+        <div>
+          <p class="eyebrow"><span class="eyebrow__dot"></span>ARCHIVO DE INFORMES</p>
+          <h2 class="section-title">Todos los reportes</h2>
+        </div>
+        <div class="filters" id="filters" role="tablist" aria-label="Filtrar por categoría">
+          <button class="filter is-active" data-filter="todos">Todos</button>
+          <button class="filter" data-filter="parche">Parches</button>
+          <button class="filter" data-filter="agentes">Agentes</button>
+          <button class="filter" data-filter="mapas">Mapas</button>
+          <button class="filter" data-filter="esports">Esports</button>
+          <button class="filter" data-filter="comunidad">Comunidad</button>
+        </div>
+      </div>
+
+      <div class="grid" id="grid"><!-- generado por script.js --></div>
+    </div>
+  </section>
+
+  <!-- ABOUT / PROTOCOLO -->
+  <section class="about" id="about">
+    <div class="wrap about__inner">
+      <div class="about__slash" aria-hidden="true"></div>
+      <div>
+        <p class="eyebrow"><span class="eyebrow__dot"></span>SOBRE EL PROTOCOLO</p>
+        <h2 class="section-title">Un panel de operaciones, no una fuente oficial</h2>
+        <p class="about__text">
+          SPIKE//INTEL es un proyecto de práctica: un sitio estático de noticias con estética táctica
+          inspirada en Valorant, construido únicamente con HTML, CSS y JavaScript del lado del cliente.
+          No se conecta a ninguna API ni base de datos — todo el contenido vive en el propio código
+          fuente. No es un producto oficial de Riot Games ni está afiliado a ella.
+        </p>
+        <ul class="about__list">
+          <li>Sin backend ni llamadas de red</li>
+          <li>Sin persistencia de datos entre sesiones</li>
+          <li>Contenido de ejemplo con fines educativos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- MODAL -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__backdrop" data-close-article></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal__close" data-close-article aria-label="Cerrar informe">&times;</button>
+    <p class="eyebrow" id="modalTag"><span class="eyebrow__dot"></span>CATEGORÍA</p>
+    <h3 class="modal__title" id="modalTitle">Título</h3>
+    <p class="modal__meta" id="modalMeta">Fecha · Lectura</p>
+    <div class="modal__body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p class="logo logo--footer"><span class="logo__mark">&gt;</span>SPIKE<span class="logo__slash">//</span>INTEL</p>
+    <p class="site-footer__note">
+      Proyecto estático de práctica · No oficial · No afiliado a Riot Games · VALORANT es marca registrada de Riot Games, Inc.
+    </p>
+    <p class="site-footer__copy">© 2026 — Construido sin API ni base de datos.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
